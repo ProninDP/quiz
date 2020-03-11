@@ -1,0 +1,16 @@
+Чему равен результат вызова в этом примере?
+
+function f() {
+  let a = 5;
+  return new Function('b', 'return a + b');
+}
+
+alert( f()(1) );
+
+1. 1
+2. 6
+3. undefined
+4. NaN
+5. Будет ошибка.
+
+Ответ: 5

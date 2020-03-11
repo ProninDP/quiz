@@ -1,0 +1,10 @@
+Что выведет alert?
+
+alert(str); // ?
+var str = "Hello";
+
+1. Hello
+2. undefined
+3. Будет ошибка.
+
+Ответ: 2
