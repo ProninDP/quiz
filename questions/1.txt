@@ -1,18 +1,14 @@
 Что выведет sayHi при вызове через setTimeout?
-
 let name = "Вася";
 function sayHi() {
   alert(name);
 }
-
 setTimeout(function() {
   let name = "Петя";
   sayHi();
 }, 1000);
-
+Ответ №: 1
 1.Вася.
 2.Петя.
 3.undefined
 4.Будет ошибка.
-
-Ответ: 1

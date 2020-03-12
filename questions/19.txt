@@ -1,16 +1,12 @@
 Чему будет равен this?
-
 let user = {
   sayHi: function() {
     alert(this);
   }
 };
-
 (user.sayBye = user.sayHi)();
-
+Ответ №: 2
 1. null
 2. undefined
 3. Объекту user.
 4. В коде ошибка.
-
-Ответ: 2

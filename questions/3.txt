@@ -1,14 +1,10 @@
 Что выведет этот код?
-
 f.call(null);
-
 function f() {
   alert(this);
 }
-
+Ответ №: 1
 1. null
 2. undefined
 3. В коде ошибка.
 4. Другое.
-
-Ответ: 1
