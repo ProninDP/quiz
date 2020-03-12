@@ -16,7 +16,7 @@ function getRandNumQuestions(filesArr) {
   }
   return questions;
 }
-console.log(getRandNumQuestions(filesArr));
+//console.log(getRandNumQuestions(filesArr));
 // Формируем объект (вопрос,правельный ответ,варианты ответов)
 function getQuestion(question){
   let data = {};
