@@ -45,4 +45,4 @@ function chekAnswer(questions) {
   }
   return count;
 }
-console.log('Число правельных ответов: ' + chekAnswer(getRandNumQuestions(filesArr)));
+console.log('Правельных ответов: ' + chekAnswer(getRandNumQuestions(filesArr)));
